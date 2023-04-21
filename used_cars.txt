@@ -1,0 +1,31 @@
+VIN - VARCHAR(17) - PK, UNIQUE, NOT_NULL 
+targa - VARCHAR(7) - UNIQUE, NOT_NULL
+marca - VARCHAR(50) - NOT_NULL
+modello - VARCHAR(50) - NOT_NULL
+versione - VARCHAR(50) - NOT_NULL
+carrozzeria - VARCHAR(30) - NOT_NULL
+carburante - VARCHAR(20) - NOT_NULL
+chilometraggio - MEDIUMINT - NULL, DEFAULT(0)
+potenza_hp - SMALLINT - NOT_NULL
+cambio - VARCHAR(20) - NOT_NULL
+n_porte - TINYINT - NOT_NULL
+n_posti - TINYINT - NOTNULL
+colore - VARCHAR(30) - NOT_NULL
+classe_emissioni - VARCHAR(10) - NULL
+cerchi - VARCHAR(30) - NULL
+climatizzatore - VARCHAR(30) - NULL
+tipologia_fari - VARCHAR(30) - NULL
+interni - VARCHAR(255) - NULL
+gomme - VARCHAR(50) - NULL
+descrizione - TEXT - NULL
+n_airbag - TINYINT - NULL
+ABS - VARCHAR(2) - NULL 
+controlli_effettuati - TEXT, NULL
+incidentata - VARCHAR(2) - NULL, DEFAULT('NO')
+data_prima_immatricolazione - DATE, NOT_NULL
+anno_produzione - YEAR - NULL
+paese_provenienza - VARCHAR(50) - NULL
+n_precedenti_proprietari - TINYINT - NULL, DEFAULT(1)
+n_tagliandi_effettuati - TINYINT - NULL
+tipo_usato - VARCHAR(30) - NULL
+prezzo - MEDIUMINT - NOT_NULL
